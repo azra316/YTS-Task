@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YTS-Task</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div class=" mx-10 h-screen border border-gray-100 shadow-md ">
+        <div class="bg-red-200 h-1/2">
+            <nav class=" pt-3  w-full flex content-center justify-center">
+                <img class="pt-4 px-2 h-12" src="/task-1/img/logo.svg.png" alt="logo">
+                <ul class="px-28 py-4 space-x-11 flex font-medium text-gray-700  ">
+                    <li>Partner With Us</li>
+                    <li>Ride With Us</li>
+                    <button
+                        class="flex justify-center content-center gap-2 px-3 py-1 border border-red-400 text-red-500 rounded-lg ">
+                        <img src="/task-1/img/ic_user.svg.png" alt="user">
+                        <span>Sign Up/ Log In</span>
+                    </button>
+                </ul>
+            </nav>
+
+            <!-- search box -->
+            <div class="grid grid-cols-2 grid-rows-2 gap-2 ml-24 mr-12 mt-2">
+                <div>
+                    <h2 class="w-96 text-2xl pl-5 pt-2 font-semibold">Your favourite <span
+                            class="text-red-500">restaurants</span> and takeaways,<span class="text-teal-500">delivered
+                            to your door</span></h2>
+                </div>
+                <div class="bg-contain bg-no-repeat bg-center row-span-2  w-[70rem] h-[15rem] "
+                    style="background-image: url(/task-1/img/__after.png)"></div>
+                <div id="searchBox" class="bg-white border border-gray-100 rounded-xl h-24 shadow-md ">
+                    <span class="pl-6 pt-5 text-center text-gray-500 text-xs">Enter your location to find local
+                        restaurants</span>
+                    <div class="flex ">
+                        <div id="search"
+                            class="bg-gray-100 border border-gray-100 rounded-md flex p-4 w-[80%] mb-4 mr-2 ml-4 mt-2 space-x-6 h-[35px] justify-center items-center">
+                            <div class="flex ">
+                                <img src="/task-1/img/ic_location.svg.png" alt="ic_location" class="justify-self-start">
+                                <span class="pr-32 text-sm text-gray-400">Type or search your location here...</span>
+                            </div>
+                            <img src="/task-1/img/ic_gps.svg.png" alt="ic_gps"
+                                class="bg-white border border-gray-100 rounded justify-self-end my-4">
+                        </div>
+                        <button class="bg-red-400 border border-red-500 rounded-lg text-gray-200 
+                      hover:text-slate-900 hover:bg-red-100 text-center mb-5 px-2 mt-2 ">search</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- search box end -->
+        </div>
+
+
+
+        <!-- How Gatoes works? -->
+        <div class=" h-1/2">
+            <h3 class="text-center text-xl font-semibold pt-8 mb-5">How <span class="text-red-400">Gatoes</span> works?
+            </h3>
+            <!-- picture grid -->
+            <div id="working-pictures" class=" grid grid-cols-3 grid-rows-1 gap-1 mx-14 my-4">
+                <div id="box-1" class="place-self-center"><img src="/task-1/img/step_1.png.png" alt="step-1" class="h-36">
+                </div>
+                <div id="box-2" class="place-self-center"><img src="img/step_2.png.png" alt="step-2" class="h-36">
+                </div>
+                <div id="box-3" class="place-self-center"><img src="/task-1/img/step_3.png.png" alt="step-3" class=" h-36">
+                </div>
+            </div>
+            <!-- work steps grid -->
+            <div id="working-pictures" class=" grid grid-cols-3 grid-rows-1 gap-1 mx-14 my-2">
+                <div id="box-1" class="place-self-center text-gray-500">step 1</div>
+                <div id="box-2" class="place-self-center text-gray-500">step 2</div>
+                <div id="box-3" class="place-self-center text-gray-500">step 3</div>
+            </div>
+            <!-- working Explaination Grid -->
+            <div id="working-pictures" class=" grid grid-cols-3 grid-rows-2 gap-1 mx-14 my-4">
+                <div id="box-1" class="place-self-center text-gray-950  font-semibold text-xl row-span-2 h-[59px] w-[210.02px]">
+                    Order your favourite food at your home</div>
+                <div id="box-2" class="place-self-center text-gray-950 font-semibold text-xl row-span-2 h-[59px] w-[212.02px]">
+                    Choose from the best restaurants around you
+                </div>
+                <div id="box-3" class="place-self-center text-gray-950 font-semibold text-xl row-span-2 h-[59px] w-[210.02px]">
+                    Fast delivery at your doorstep</div>
+            </div>
+
+
+        </div>
+    </div>
+    <!-- App Info -->
+    <div class="h-[25rem] bg-red-100 w-[70rem] my-16 ml-44 shadow-md grid grid-cols-3 grid-rows-3 gap-1">
+        <div class="col-span-2">
+            <h3 class="text-red-400 text-5xl font-semibold pt-12 pl-10 h-14">Have you got our App?</h3></div>
+        <div class="col-span-2 text-gray-700 font-medium text-2xl w-[590.62px] h-[61px] pl-10">
+            Get yours now - available on the Apple app store and Google play store!</div>
+        <div class="col-span-2 flex">
+            <div class="px-14"> <img src="/task-1/img/apple-store.svg.png" alt="apple-store"></div>
+            <div><img src="/task-1/img/google-play.svg.png" alt="google-play"></div>
+        </div>
+        <div class="row-start-1 row-end-4 col-start-3">
+            <img src="/task-1/img/Figure → phone_mockups.png.png" alt="phone_mockups">
+        </div>
+    </div>
+    <!-- Footer-1 -->
+    <div class="h-[14rem] bg-slate-800 mx-10 grid grid-cols-4 grid-row-4 gap-2 p-14 shadow-sm">
+       <div class=""><img src="/task-1/img/footer-logo.svg.png" alt="footer-logo"></div>
+       <div class="font-medium text-gray-500 h-4 text-sm uppercase">Discover Gatoes</div>
+       <div class="text-gray-500 font-medium text-sm h-4 w-10 uppercase">Help</div>
+       <div class="text-sm font-medium text-gray-500 h-4 w-10">Legal</div>
+       <div class="row-span-2 h-8 w-16"><img src="/task-1/img/google-play.svg.png" alt="google-play"></div>
+       <div class="text-xs font-normal text-gray-300 h-2">About us</div>
+       <div class="text-gray-300 text-xs font-normal h-2">Contact us</div>
+       <div class="text-gray-300 text-xs h-2 ">Terms & Conditions</div>
+       <div class="text-gray-300  h-2 text-xs">Become a partner</div>
+       <div class="text-gray-300  h-2 text-xs">FAQs</div>
+       <div class="text-gray-300  h-2 text-xs">Refund & Cancellation</div>
+       <div class="row-span-2 h-8 w-16"><img src="/task-1/img/apple-store.svg.png" alt="apple-store"></div>
+       <div class="text-gray-300  h-2 text-xs">Ride with us</div>
+       <div class="text-gray-300  h-2 text-xs col-span-2 pl-[21rem]">Privacy Policy</div>
+       <div class="text-gray-300  h-2 text-xs col-span-3 pl-[41.9rem]">Cookie Policy</div>
+    </div>
+    <!-- Footer-2 -->
+    <div class="bg-gray-800 border border-gray-900 h-12 mx-10 text-gray-500 flex">
+      <div class="flex space-x-6 pl-72 pt-4">
+        <div><img src="/task-1/img/ic_linkedin.svg.png" alt="ic_linkedin" class="h-4"></div>
+        <div><img src="/task-1/img/ic_insta.svg.png" alt="ic_insta" class="h-4"></div>
+        <div><img src="/task-1/img/ic_insta.svg.png" alt="ic_fb-icon" class="h-4"></div>
+      </div>
+      <div class="h-4 pl-60 pt-3">
+        © 2024 Gatoes. All Rights Reserved
+      </div>
+
+    </div>
+
+</body>
+
+</html>
